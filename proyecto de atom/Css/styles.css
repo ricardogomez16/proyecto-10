@@ -1,0 +1,291 @@
+/* <!--Paso 3--> Reiniciar */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+/* Estilo Menú */
+html, body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ line-height: 1.7em;
+}
+a {
+ color: #333;
+ text-decoration: none;
+}
+h1, h2, h3 {
+ padding-bottom: 20px;
+}
+p {
+ margin: 10px 0;
+}
+/* Clases Generales */
+/* container mantendrá el contenido centrado y con un máximo de ancho */
+.container {
+ margin: auto;
+ max-width: 1100px;
+ overflow: auto;
+ padding: 0 20px;
+}
+/* Navbar */
+#navbar {
+  background: #e8252c;
+  color: #ffffff;
+  overflow: auto;
+}
+#navbar a {
+ color: #ffffff;
+}
+#navbar h1 {
+ float: left;
+ padding-top: 20px;
+}
+#navbar ul {
+ list-style: none;
+ float: right;
+}
+#navbar ul li{
+ float: left;
+}
+#navbar ul li a {
+ display: block;
+ padding: 20px;
+ text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+ border-color: #e8252c;
+ background: #ffffff;
+ color: #e8252c;
+}
+
+/*------<!--Paso 5--> */
+.text-primary {
+ color:#e8252c;
+}
+<section id="features">
+<div class="box bg-light">
+<i class="fab fa-d-and-d"></i>
+<h3>La mejor tienda de comics</h3>
+<p>Somos una tienda fundada de fans para fans, nos especializamos en la cotización y venta de coleccionables y figuras originales importadas directamente desde Japón y Estados Unidos, con entregas a domicilio en Monterrey y el area Metropolitana.</p>
+</div>
+<div class="box bg-light">
+<i
+
+
+
+
+
+
+.lead {
+ font-size: 20px;
+}
+
+.btn {
+ display: inline-block;
+ font-size: 18px;
+ color: #ffffff;
+ background: #333;
+ padding: 13px 20px;
+ border: none;
+ cursor: pointer;
+}
+
+.btn:hover {
+ background: #e8252c;
+}
+
+
+
+/* Paso 6 Bienvenida */
+
+#Bienvenido {
+ background: url('../imagenes/fondo comic.jpeg') no-repeat center center/cover;
+ height: 600px;
+}
+
+#Bienvenido .Bienvenido-content {
+ color: #ffffff;
+ text-align: center;
+ padding-top: 170px;
+}
+
+#Bienvenido .Bienvenido-content h1 {
+ font-size: 60px;
+ line-height: 1.2em;
+}
+
+#Bienvenido .Bienvenido-content p {
+ padding-bottom: 20px;
+ line-height: 1.7em;
+}
+
+/*----- pASO 8 */
+.btn-light {
+ background: #e8252c;
+ color: #f0ca30;
+}
+
+.bg-dark {
+ background: #f0ca30;
+ color: #000000;
+}
+
+.bg-light {
+ background: #ffffff;
+ color: #000000;
+}
+
+.bg-primary {
+ background: #e8252c;
+ color: #ffffff;
+}
+/* PASO 9 Información Principal */
+
+#home-info {
+ height: 400px;
+}
+
+#home-info .info-img {
+ float: left;
+ width: 50%;
+ background: url(../img/photo-fondo comic.jpeg) no-repeat center center/cover;
+ min-height: 100%;
+}
+
+#home-info .info-content {
+ float: right;
+ width: 50%;
+ height: 100%;
+ text-align: center;
+ padding: 50px 30px;
+ overflow: hidden;
+}
+
+#home-info .info-content {
+  float: left;
+  width: 50%
+  height: 100%
+  text-align;
+
+ padding-bottom: 30px
+}
+/*PASO 11*/
+.box {
+ float: left;
+ width: 33.3%;
+ padding: 50px;
+ text-align: center;
+}
+.box i {
+ margin-bottom: 10px;
+}
+/* PASO 13---*/
+.clr {
+ clear: both;
+}
+
+/* Pie de página */
+
+#main-footer {
+ text-align: center;
+ background: #000000;
+ color: #000000;
+ padding: 20px;
+}
+
+/*---- PASO 15*/
+.l-heading {
+ font-size: 20px;
+}
+
+/* Padding */
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+/* PASO 16*/
+/* Acerca de */
+
+#about-info .info-right {
+ float: right;
+ width: 50%;
+ min-height: 100%;
+}
+
+#about-info .info-right img {
+ display: block;
+ margin: auto;
+ width: 70%;
+ border-radius: 50%;
+}
+
+#about-info .info-left {
+ float: left;
+ width: 50%;
+ min-height: 100%;
+}
+
+/* Testimonos */
+#testimonials {
+ height: 600px;
+ background: url('/imagenes/photo-fondo comic.jpeg') no-repeat center center/cover;
+ padding-top: 100px;
+}
+#testimonials1{
+  height: auto;
+  background: url('../imagenes/fondo comic.jpeg') no-repeat center center/cover;
+  padding-top: 100px;
+
+#testimonials h2 {
+ color: #ffffff;
+ text-align: center;
+ padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+ padding: 20px;
+ margin-bottom: 40px;
+ border-radius: 5px;
+ opacity: 0.9;
+}
+/* border-radius para obtener el efecto redondo de las imágenes */
+#testimonials .testimonial img {
+ width: 100px;
+ float: left;
+ margin-right: 20px;
+ border-radius: 50%;
+}
+
+
+
+/* Forma de Contacto */
+
+#contact-form .form-group {
+ margin-bottom: 20px;
+}
+
+#contact-form label {
+ display: block;
+ margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+ width: 100%;
+ padding: 10px;
+ border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+ height: 200px;
+}
+
+
+/* La propiedad focus se presenta cuando el usuario selecciona un input en este caso el resultado será un cambio de color en el borde de los inputs y de los textarea al momento de seleccionarlos */
+#contact-form input:focus,
+#contact-form textarea:focus {
+ outline: none;
+ border-color: #000000;
+}
